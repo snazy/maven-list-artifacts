@@ -16,7 +16,7 @@ Preferred way is to add a profile to your top-level pom like this:
 ```xml
   <profiles>
     <profile>
-      <id>list-artifacts</id>
+      <id>dump-model</id>
       <build>
         <plugins>
           <plugin>
