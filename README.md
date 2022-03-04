@@ -1,3 +1,6 @@
+[![Build Status](https://github.com/snazy/dump-maven-model/actions/workflows/ci.yml/badge.svg)](https://github.com/snazy/dump-maven-model/actions/workflows/ci.yml)
+[![Maven Central](https://img.shields.io/maven-central/v/org.caffinitas.dump-maven-model/dump-maven-model)](https://search.maven.org/artifact/org.caffinitas/dump-maven-model/dump-maven-model-parent)
+
 # List all Maven artifacts in a multi-module project
 
 A very special Maven lifecycle extension that prints all artifacts in the form
