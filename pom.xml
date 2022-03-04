@@ -26,7 +26,6 @@
 
   <name>Dump Maven Model - Parent</name>
   <description>Dumpy the model of a Maven project.</description>
-
   <url>https://caffinitas.org</url>
   <licenses>
     <license>
