@@ -74,7 +74,7 @@
 
     <!-- Version properties -->
     <assertj.version>3.22.0</assertj.version>
-    <checkstyle.version>9.2.1</checkstyle.version>
+    <checkstyle.version>10.0</checkstyle.version>
     <errorprone-slf4j.version>0.1.4</errorprone-slf4j.version>
     <google-error-prone.version>2.10.0</google-error-prone.version>
     <google-java-format.version>1.13.0</google-java-format.version>
