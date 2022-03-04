@@ -21,7 +21,7 @@
 
   <groupId>org.caffinitas.dump-maven-model</groupId>
   <artifactId>dump-maven-model-parent</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Dump Maven Model - Parent</name>
