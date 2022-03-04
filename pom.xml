@@ -388,9 +388,11 @@ limitations under the License.
           <includes>
             <include>src/**</include>
             <include>*</include>
-            <include>**/.mvn/**</include>
           </includes>
           <excludes>
+            <exclude>**/.mvn/**</exclude>
+            <exclude>mvnw</exclude>
+            <exclude>mvnw.cmd</exclude>
             <exclude>**/jvm.config</exclude>
             <exclude>**/*.java</exclude>
             <exclude>**/*.scala</exclude>
