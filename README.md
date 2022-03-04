@@ -22,7 +22,7 @@ Preferred way is to add a profile to your top-level pom like this:
           <plugin>
             <groupId>org.caffinitas.dump-maven-model</groupId>
             <artifactId>dump-maven-model</artifactId>
-            <version>0.1</version>
+            <version>0.1.0</version>
             <extensions>true</extensions>
           </plugin>
         </plugins>
