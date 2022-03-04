@@ -1,14 +1,12 @@
 [![Build Status](https://github.com/snazy/dump-maven-model/actions/workflows/ci.yml/badge.svg)](https://github.com/snazy/dump-maven-model/actions/workflows/ci.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/org.caffinitas.dump-maven-model/dump-maven-model)](https://search.maven.org/artifact/org.caffinitas/dump-maven-model/dump-maven-model-parent)
 
-# List all Maven artifacts in a multi-module project
+# Dump Maven model as JSON
 
-A very special Maven lifecycle extension that prints all artifacts in the form
-`group-id ':' artifact-id ':' version ':' packaging` and removes all projects except the top-level
-one from the Maven session.
+A Maven lifecycle extension that dumps the Maven model as JSON.
 
 It is intended to _quickly_ retrieve the list of all artifacts. 
-gs
+
 ## Usage
 
 Preferred way is to add a profile to your top-level pom like this:
@@ -33,7 +31,7 @@ Preferred way is to add a profile to your top-level pom like this:
 
 And run the following to get the dump the whole Maven model as JSON.
 ```bash
-mvn -Plist-artifacts validate -q > model.json
+mvn -Pdump-model validate -q > model.json
 ```
 
 ### JSON model
