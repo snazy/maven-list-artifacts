@@ -80,7 +80,7 @@
     <google-error-prone.version>2.11.0</google-error-prone.version>
     <google-java-format.version>1.14.0</google-java-format.version>
     <immutables.version>2.9.0</immutables.version>
-    <jackson.version>2.13.1</jackson.version>
+    <jackson.version>2.13.2</jackson.version>
     <junit.version>5.8.2</junit.version>
     <maven.plugin-annotations.version>3.6.4</maven.plugin-annotations.version>
     <maven.version>3.8.4</maven.version>
