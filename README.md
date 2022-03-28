@@ -34,6 +34,15 @@ And run the following to get the dump the whole Maven model as JSON.
 mvn -Pdump-model validate -q > model.json
 ```
 
+### Option: restrict to root project
+
+Setting the property `dump-model.all-projects` to `false` restricts the output to the root project.
+
+Example:
+```bash
+mvn -Ddump-model.all-projects=false -Pdump-model validate -q > model.json
+```
+
 ### JSON model
 
 The JSON model currently contains two top-level properties:
