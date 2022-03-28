@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.caffinitas.dump-maven-model</groupId>
     <artifactId>dump-maven-model-parent</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.1</version>
   </parent>
 
   <artifactId>dump-maven-model</artifactId>
