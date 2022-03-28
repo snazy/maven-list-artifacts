@@ -50,6 +50,7 @@ public class ModelWrapper {
 
   public Map<String, ModelWrapper> getModules() {
     return project.getModules().stream()
+        .filter(mod -> projectsHierarchy.getModuleOf(projectChildren, mod) != null)
         .collect(
             Collectors.toMap(
                 mod -> mod,
