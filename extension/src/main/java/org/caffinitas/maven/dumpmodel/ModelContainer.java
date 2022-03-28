@@ -15,11 +15,7 @@
  */
 package org.caffinitas.maven.dumpmodel;
 
-import java.util.List;
-import java.util.stream.Collectors;
 import org.apache.maven.execution.MavenSession;
-import org.apache.maven.project.MavenProject;
-import org.caffinitas.maven.dumpmodel.model.ModelArtifact;
 
 public class ModelContainer {
 
@@ -35,14 +31,6 @@ public class ModelContainer {
     ProjectsHierarchy hierarchy = ProjectsHierarchy.createHierarchyFromMavenSession(session);
 
     return new ModelContainer(hierarchy);
-  }
-
-  public List<ModelArtifact> getAllModelArtifacts() {
-    return hierarchy.allProjects().stream()
-        .map(ProjectChildren::getProject)
-        .map(MavenProject::getArtifact)
-        .map(ModelArtifact::new)
-        .collect(Collectors.toList());
   }
 
   public ModelWrapper getModel() {
