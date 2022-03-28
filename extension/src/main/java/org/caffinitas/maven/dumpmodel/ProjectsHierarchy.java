@@ -48,7 +48,6 @@ public class ProjectsHierarchy {
       ProjectChildren module = projectsHierarchy.projectsByPathMap.get(relative);
       if (module == null) {
         int i = relative.getNameCount();
-        Path part = i == 0 ? Paths.get("") : relative.subpath(0, i);
         String name = i == 0 ? "" : relative.getName(i - 1).toString();
         module = ProjectChildren.builder().path(relative).moduleName(name).project(project).build();
         projectsHierarchy.projectsByPathMap.put(relative, module);
