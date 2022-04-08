@@ -52,6 +52,7 @@ jobs:
             console.log("PR head SHA: " + pullRequest.head.sha)
             console.log("PR Title: " + pullRequest.title)
             console.log("PR Body: " + pullRequest.body)
+            console.log(pullRequest)
 
       - name: Check commit status
         run: |
