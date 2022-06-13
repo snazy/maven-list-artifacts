@@ -83,7 +83,7 @@
     <jackson.version>2.13.3</jackson.version>
     <junit.version>5.8.2</junit.version>
     <maven.plugin-annotations.version>3.6.4</maven.plugin-annotations.version>
-    <maven.version>3.8.5</maven.version>
+    <maven.version>3.8.6</maven.version>
     <surefire.version>3.0.0-M7</surefire.version>
   </properties>
 
