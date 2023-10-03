@@ -78,7 +78,7 @@
     <checkstyle.version>10.12.4</checkstyle.version>
     <errorprone-slf4j.version>0.1.20</errorprone-slf4j.version>
     <google-error-prone.version>2.22.0</google-error-prone.version>
-    <google-java-format.version>1.17.0</google-java-format.version>
+    <google-java-format.version>1.18.0</google-java-format.version>
     <immutables.version>2.9.3</immutables.version>
     <jackson.version>2.15.2</jackson.version>
     <junit.version>5.10.0</junit.version>
