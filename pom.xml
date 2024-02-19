@@ -77,7 +77,7 @@
     <assertj.version>3.25.2</assertj.version>
     <checkstyle.version>10.13.0</checkstyle.version>
     <errorprone-slf4j.version>0.1.22</errorprone-slf4j.version>
-    <google-error-prone.version>2.24.1</google-error-prone.version>
+    <google-error-prone.version>2.25.0</google-error-prone.version>
     <google-java-format.version>1.19.2</google-java-format.version>
     <immutables.version>2.10.1</immutables.version>
     <jackson.version>2.16.1</jackson.version>
